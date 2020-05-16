@@ -397,7 +397,6 @@ public class femaleCircumcisionMap extends PApplet{
 	void setGradient(int x, int y, float w, float h,int key) {
 
 		  noFill();
-		  
 		  switch(key) {
 		  case 0:
 		    for (int i = y; i <= y+h; i++) {
